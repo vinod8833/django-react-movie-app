@@ -57,4 +57,4 @@ Run with Docker (optional)
 
 Done!
 Backend → http://127.0.0.1:8000
-Frontend → http://localhost:3000
+Frontend → http://localhost:3000# django-react-movie-app
