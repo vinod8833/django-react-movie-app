@@ -46,6 +46,11 @@ Install dependencies:
 npm install
 ```
 
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
 Run frontend:
 
 ```bash
@@ -54,6 +59,7 @@ npm start
 Run with Docker (optional)
 ```bash
 ```docker-compose up --build
+```
 
 Done!
 Backend → http://127.0.0.1:8000
