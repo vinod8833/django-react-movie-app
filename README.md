@@ -1,4 +1,4 @@
-# 🎬 Movie Project (Django + React)
+# Movie Project (Django + React)
 
 A simple full-stack Movie Management app using Django REST API & React.
 

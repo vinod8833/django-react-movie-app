@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global UI Theme for Movie Website */
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-[#0c0f14] via-[#111827] to-[#1a1f29] text-white min-h-screen font-sans;
+  }
+}
+
+/* Custom Card UI */
+@layer components {
+  .movie-card {
+    @apply bg-white/5 border border-white/10 rounded-2xl shadow-lg p-4 transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-yellow-500/50;
+  }
+
+  .movie-img {
+    @apply w-full h-60 object-cover rounded-lg shadow-md;
+  }
+
+  .movie-title {
+    @apply mt-4 text-xl font-semibold text-yellow-300 hover:text-yellow-400;
+  }
+
+  .rating-text {
+    @apply mt-2 text-sm text-gray-300;
+  }
+
+  .rating-value {
+    @apply text-yellow-400 font-semibold;
+  }
+
+  .pagination-btn {
+    @apply px-5 py-2 rounded-lg font-medium shadow-md transition;
+  }
+}
+
+/* Fancy Glow Hover */
+@layer utilities {
+  .hover-glow {
+    transition: 0.4s;
+  }
+  .hover-glow:hover {
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.6);
+  }
+}
